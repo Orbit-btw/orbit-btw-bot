@@ -1,0 +1,16 @@
+{
+  "name": "orbit-btw-bot",
+  "version": "1.0.0",
+  "description": "A GitHub App to manage issues via comments",
+  "main": "index.js",
+  "scripts": {
+    "start": "probot run ./index.js",
+    "dev": "nodemon --exec \"npm start\""
+  },
+  "dependencies": {
+    "probot": "^13.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}

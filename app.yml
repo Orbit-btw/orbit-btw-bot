@@ -1,0 +1,11 @@
+name: orbit-btw-bot
+description: "A GitHub App to manage issues via comments"
+url: "https://github.com/Orbit-btw"
+public: false
+default_permissions:
+  issues: write
+  pull_requests: write
+default_events:
+  - issue_comment
+  - issues
+  - pull_request
